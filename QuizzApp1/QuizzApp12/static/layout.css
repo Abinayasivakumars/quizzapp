@@ -1,0 +1,10 @@
+#login-container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 540px;
+  }
+  
+  #result {
+    color: cornflowerblue;
+    font-size: 37px;
+  }
