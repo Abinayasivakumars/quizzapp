@@ -21,4 +21,6 @@ from QuizzApp12 import views
 urlpatterns = [
     path('members/', views.members, name='members'),
     path('admin/', admin.site.urls),
+    path('getuser/', views.GetMembers, name="getmembers"),
+    path('send-email/', views.SendMail, name='send-mail'),
 ]
